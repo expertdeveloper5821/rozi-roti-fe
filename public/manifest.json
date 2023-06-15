@@ -1,0 +1,43 @@
+{
+  "name": "Rozi Roti",
+  "short_name": "Rozi Roti",
+  "background_color": "#000000",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/assets/images/maskable512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+  },
+    {
+      "src": "/assets/images/roziroti-logos192.jpeg",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+  },
+  {
+      "src": "/assets/images/roziroti-logos256.jpeg",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any"
+  }
+  ,
+  {
+      "src": "/assets/images/roziroti-logos384.jpeg",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+  }
+  ,
+  {
+      "src": "/assets/images/roziroti-logos512.jpeg",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+  }
+  ],
+  "display": "standalone",
+  "theme_color": "#000000"
+ 
+}

@@ -1,0 +1,127 @@
+.container {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('/public//assets//images/rozi.svg');
+  background-size: cover;
+  min-height: 100vh;
+  padding: 1.2rem;
+}
+
+.logo {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.forgetusername {
+  color: red;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 0.5rem;
+  font-size: 14px;
+  color: #2b3336;
+}
+
+.forgetusernamespan {
+  color: #2b3336;
+}
+
+.inputcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+}
+.formHeader {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: medium;
+}
+
+.formHeader img {
+  text-align: center;
+}
+
+.form {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 6px;
+  padding: 1.2rem;
+  min-width: 30%;
+}
+
+.headerquote {
+  align-items: center;
+  padding: 1.2rem 0;
+  font-size: large;
+  font-weight: 800;
+  color: #2b3336;
+}
+.errorSpan {
+  font-size: smaller;
+  color: red;
+  padding-top: 4px;
+  max-width: 300px;
+}
+.passwordInput {
+  position: relative;
+}
+.passwordIconSpan {
+  position: absolute;
+  right: 12px;
+  top: 50px;
+}
+.passwordIcon {
+  width: 16px;
+  cursor: pointer;
+}
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.formfooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+  color: #2b3336;
+  text-align: center;
+}
+.formfooterlinkspan {
+  color: #2b3336;
+  padding-left: 5px;
+  font-weight: 600;
+}
+.successmessage {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: green;
+  padding-top: 10px;
+}
+.errormessage {
+  text-align: center;
+  display: flex;
+  max-width: 300px;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  padding-top: 10px;
+}
+.successsignupspan {
+  padding-left: 3px;
+  padding-right: 3px;
+  text-decoration: underline;
+}

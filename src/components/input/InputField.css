@@ -1,0 +1,45 @@
+.inputlabelcontainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  position: relative;
+}
+.inputlabel {
+  margin-bottom: 8px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: #2b3336;
+}
+.InputField {
+  height: 40px;
+  width: 300px;
+  cursor: pointer;
+  border: 1px solid #a9a8a6;
+  border-radius: 5px;
+  padding: 0 8px;
+}
+@media (max-width: 367px) {
+  .InputField {
+    height: 40px;
+    width: 240px;
+    cursor: pointer;
+    border: 1px solid rgb(221, 211, 211);
+    border-radius: 0.3rem;
+  }
+}
+
+.InputFieldError {
+  height: 40px;
+  width: 300px;
+  cursor: pointer;
+  border: 1.5px solid red;
+  padding: 0 8px;
+  border-radius: 0.3rem;
+}
+
+@media screen and (max-width: 480px) {
+  .InputFieldError {
+    width: 250px !important;
+    border: 1px solid red;
+  }
+}
